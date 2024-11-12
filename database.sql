@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS todolist;
+
+USE todolist;
+
+CREATE TABLE IF NOT EXISTS todolist (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    deskripsi VARCHAR(255) NOT NULL
+);
